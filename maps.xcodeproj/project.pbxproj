@@ -14,6 +14,11 @@
 		E15A70412B00021F00E507E9 /* mapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A70402B00021F00E507E9 /* mapsTests.swift */; };
 		E15A704B2B00021F00E507E9 /* mapsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A704A2B00021F00E507E9 /* mapsUITests.swift */; };
 		E15A704D2B00021F00E507E9 /* mapsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A704C2B00021F00E507E9 /* mapsUITestsLaunchTests.swift */; };
+		E15A705B2B0078F400E507E9 /* Cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A705A2B0078F400E507E9 /* Cities.swift */; };
+		E16A103F2B0822D800A989C8 /* HelperDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16A103E2B0822D800A989C8 /* HelperDetailView.swift */; };
+		E17DC37D2B0705C400074AD1 /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17DC37C2B0705C400074AD1 /* CardDetailView.swift */; };
+		E1A40BF12B0524EB0091B720 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A40BF02B0524EB0091B720 /* Helper.swift */; };
+		E1F7B1172B02FDAE00558AA9 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F7B1162B02FDAE00558AA9 /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		E15A70462B00021F00E507E9 /* mapsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mapsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15A704A2B00021F00E507E9 /* mapsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapsUITests.swift; sourceTree = "<group>"; };
 		E15A704C2B00021F00E507E9 /* mapsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E15A705A2B0078F400E507E9 /* Cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities.swift; sourceTree = "<group>"; };
+		E16A103E2B0822D800A989C8 /* HelperDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperDetailView.swift; sourceTree = "<group>"; };
+		E17DC37C2B0705C400074AD1 /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
+		E1A40BF02B0524EB0091B720 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		E1F7B1162B02FDAE00558AA9 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +104,13 @@
 		E15A702E2B00021D00E507E9 /* maps */ = {
 			isa = PBXGroup;
 			children = (
+				E1F7B1152B02FDA300558AA9 /* Helpers */,
+				E15A70592B0078E500E507E9 /* Models */,
 				E15A702F2B00021D00E507E9 /* mapsApp.swift */,
 				E15A70312B00021D00E507E9 /* ContentView.swift */,
 				E15A70332B00021F00E507E9 /* Assets.xcassets */,
 				E15A70352B00021F00E507E9 /* Preview Content */,
+				E17DC37C2B0705C400074AD1 /* CardDetailView.swift */,
 			);
 			path = maps;
 			sourceTree = "<group>";
@@ -125,6 +138,24 @@
 				E15A704C2B00021F00E507E9 /* mapsUITestsLaunchTests.swift */,
 			);
 			path = mapsUITests;
+			sourceTree = "<group>";
+		};
+		E15A70592B0078E500E507E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E15A705A2B0078F400E507E9 /* Cities.swift */,
+				E1A40BF02B0524EB0091B720 /* Helper.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E1F7B1152B02FDA300558AA9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E1F7B1162B02FDAE00558AA9 /* Helpers.swift */,
+				E16A103E2B0822D800A989C8 /* HelperDetailView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +288,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E15A705B2B0078F400E507E9 /* Cities.swift in Sources */,
 				E15A70322B00021D00E507E9 /* ContentView.swift in Sources */,
+				E1A40BF12B0524EB0091B720 /* Helper.swift in Sources */,
+				E17DC37D2B0705C400074AD1 /* CardDetailView.swift in Sources */,
+				E16A103F2B0822D800A989C8 /* HelperDetailView.swift in Sources */,
 				E15A70302B00021D00E507E9 /* mapsApp.swift in Sources */,
+				E1F7B1172B02FDAE00558AA9 /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

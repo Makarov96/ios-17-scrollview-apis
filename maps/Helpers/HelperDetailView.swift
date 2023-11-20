@@ -6,3 +6,25 @@
 //
 
 import Foundation
+import Observation
+import SwiftUI
+
+
+@Observable
+class HelperDetailView{
+
+    var city:City? = nil
+    var isDraggable = false
+
+    
+    init(city: City? = nil, isDraggable: Bool = false) {
+        self.city = city
+        self.isDraggable = isDraggable
+
+    }
+    
+    
+    
+    
+}
+
